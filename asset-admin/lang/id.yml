@@ -1,0 +1,3 @@
+id:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Berkas

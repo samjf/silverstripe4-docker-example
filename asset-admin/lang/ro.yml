@@ -1,0 +1,3 @@
+ro:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Fişiere

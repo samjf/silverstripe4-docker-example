@@ -1,0 +1,97 @@
+.editor {
+  background-color: $body-bg;
+  z-index: 2;
+  position: absolute;
+  height: 100%;
+  left: 0;
+
+  @include media-breakpoint-up(lg) {
+    width: $cms-panel-sm;
+    border-left: 1px solid $border-color;
+    position: relative;
+  }
+
+  @include media-breakpoint-up(xl) {
+    width: $cms-panel-md;
+  }
+}
+
+.editor__details {
+  margin-bottom: $spacer-y * 2;
+
+  .form-group::after {
+    margin-bottom: $spacer-y;
+  }
+}
+
+.editor__heading {
+  margin-right: $spacer-x * 2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 2px;
+}
+
+.editor__status-flag {
+  color: #f46b00;
+  background-color: #fff7f2;
+  border-color: #f46b00;
+  clear: both;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  line-height: 1rem;
+  margin-left: 3px;
+}
+
+.editor__specs {
+  color: $text-muted;
+  font-size: $font-size-xs;
+  margin-bottom: $spacer-y;
+}
+
+.editor__file-preview {
+  text-align: center;
+  margin: 0 #{-$panel-padding-x} $spacer-xs;
+  position: relative;
+  max-height: $cms-panel-md * .75;
+  min-height: 60px;
+  overflow: hidden;
+  display: block;
+  align-items: center;
+  text-decoration: none;
+
+  &::before {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -25px;
+    padding: 11px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: $black;
+    color: $white;
+    font-size: 24px;
+    opacity: .6;
+    content: "s";
+    font-family: silverstripe;
+    line-height: 27px;
+  }
+
+  &:hover::before,
+  &:active::before {
+    text-decoration: none;
+    //display: block;
+    //cursor: pointer;
+  }
+}
+
+.editor__thumbnail {
+  max-width: 100%;
+  max-height: $cms-panel-md * .75;
+  min-height: 60px;
+  margin: auto;
+}

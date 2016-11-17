@@ -1,0 +1,20 @@
+---
+Name: basei18n
+Before: '/i18n'
+---
+SilverStripe\i18n\i18n:
+  module_priority:
+    - admin
+    - framework
+    - sapphire
+---
+Name: defaulti18n
+---
+SilverStripe\i18n\i18n:
+  module_priority:
+    - other_modules
+---
+Name: textcollector
+---
+SilverStripe\Core\Injector\Injector:
+  SilverStripe\i18n\i18nTextCollector_Writer: SilverStripe\i18n\i18nTextCollector_Writer_RailsYaml

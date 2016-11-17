@@ -1,0 +1,3 @@
+et_EE:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Failid

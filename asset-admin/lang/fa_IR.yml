@@ -1,0 +1,3 @@
+fa_IR:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: فایل‌ها

@@ -1,0 +1,3 @@
+hu:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Állományok

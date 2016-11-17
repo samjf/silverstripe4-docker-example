@@ -1,0 +1,3 @@
+es:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Archivos

@@ -1,0 +1,3 @@
+lt:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Bylos

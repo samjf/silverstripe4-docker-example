@@ -1,0 +1,3 @@
+nl:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Bestanden

@@ -1,0 +1,3 @@
+he_IL:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: קבצים

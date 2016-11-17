@@ -1,0 +1,3 @@
+eo:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Dosieroj

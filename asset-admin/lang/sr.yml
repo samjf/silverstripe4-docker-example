@@ -1,0 +1,3 @@
+sr:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Датотеке

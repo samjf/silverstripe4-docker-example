@@ -1,0 +1,3 @@
+uk:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Файли

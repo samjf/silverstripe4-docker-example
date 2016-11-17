@@ -1,0 +1,3 @@
+el:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Αρχεία

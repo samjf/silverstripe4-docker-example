@@ -1,0 +1,3 @@
+cs:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Soubory

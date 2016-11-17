@@ -1,0 +1,3 @@
+bg:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Файлове

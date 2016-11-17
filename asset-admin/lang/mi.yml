@@ -1,0 +1,3 @@
+mi:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Ngā Kōnae

@@ -1,0 +1,108 @@
+.gallery {
+  position: relative;
+}
+
+// Required for bulk-actions position
+.gallery__outer {
+  position: relative;
+}
+
+.gallery__main {
+  height: 100%;
+  position: relative;
+}
+
+.gallery__no-item-notice {
+  width: 100%;
+  text-align: center;
+}
+
+.gallery__back {
+  &.ss-ui-button::before {
+    font-size: 23px;
+  }
+}
+
+.gallery__folders {
+  display: inline-block;
+  margin-bottom: -6px;
+  width: 100%;
+}
+
+.gallery__files {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: $toolbar-total-height; // leave space at bottom for bulk-actions on smaller screens
+}
+
+.gallery__load {
+  width: 100%;
+  display: inline-block;
+}
+
+.gallery__load-more {
+  display: block;
+  color: $white;
+  cursor: pointer;
+  margin: 8px auto 24px;
+  padding: 4px;
+  width: 200px;
+  font-size: 16px;
+  height: 44px;
+  background-color: $brand-primary;
+  border: 0;
+  border-radius: 4px;
+}
+
+.gallery__sort {
+  position: absolute;
+  top: $spacer-y;
+  right: 0;
+  margin-right: $panel-padding-x;
+
+  .gallery & .chosen-single {
+    border: 0;
+    filter: none; //IE9
+    background: none;
+    box-shadow: none;
+    color: inherit;
+    margin-top: -1px;
+  }
+
+  .chosen-single {
+    &:focus {
+      box-shadow: $dropdown-shadow;
+    }
+
+    > span {
+      text-align: right;
+      color: inherit;
+    }
+
+    > span::before {
+      content: "Sort by ";
+    }
+  }
+
+  .chosen-drop {
+    border-radius: 3px;
+    box-shadow: $dropdown-shadow;
+    border: 0;
+  }
+
+  .active-result {
+    text-transform: capitalize;
+  }
+}
+
+.gallery__error {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery__error-message {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}

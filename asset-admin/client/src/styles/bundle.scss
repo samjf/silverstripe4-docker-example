@@ -1,0 +1,19 @@
+// Variables
+// @import "../../../../framework/node_modules/bootstrap/scss/bootstrap";
+@import "variables";
+@import "../../../../framework/admin/client/src/styles/variables";
+
+// Thirdparty
+@import "../../../../framework/node_modules/bootstrap/scss/mixins";
+
+// Base
+
+// Components
+@import "../components/GalleryItem/GalleryItem";
+@import "../components/BulkActions/BulkActions";
+@import "../components/AssetDropzone/AssetDropzone";
+
+// Layout and sections
+@import "../containers/Gallery/Gallery";
+@import "../containers/Editor/Editor";
+@import "../containers/AssetAdmin/AssetAdmin";

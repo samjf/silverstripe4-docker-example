@@ -1,0 +1,3 @@
+ko:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: 파일

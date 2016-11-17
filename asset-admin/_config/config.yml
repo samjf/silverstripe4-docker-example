@@ -1,0 +1,11 @@
+---
+Name: assetadmin
+---
+SilverStripe\CMS\Controllers\AssetAdmin:
+  url_segment: 'old-assets'
+SilverStripe\Assets\File:
+  extensions:
+    - 'SilverStripe\AssetAdmin\Controller\AssetAdminFile'
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_javascript:
+    - asset-admin/client/dist/js/bundle.js

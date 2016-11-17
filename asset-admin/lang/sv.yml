@@ -1,0 +1,3 @@
+sv:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Filer

@@ -1,0 +1,3 @@
+fi:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: Tiedostot

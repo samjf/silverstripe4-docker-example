@@ -1,0 +1,3 @@
+th:
+  SilverStripe\AssetAdmin\Controller\AssetAdmin:
+    MENUTITLE: ไฟล์
