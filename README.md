@@ -4,6 +4,10 @@ This is a Docker example project of Silverstripe version 4.
 
 This is was for an example of setting up a basic Dockerfile for easy environment setup and team development.
 
+### Quick clone and demo setup command:
+
+`bash -c "git@github.com:samjf/silverstripe4-docker-example.git && cd silverstripe4-docker-example && ./.setup.sh"`
+
 ### Useful commands
 
  * docker build -t my-silverstripe4 .
