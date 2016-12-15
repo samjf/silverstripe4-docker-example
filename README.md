@@ -6,7 +6,7 @@ This is was for an example of setting up a basic Dockerfile for easy environment
 
 ### Quick clone and demo setup command:
 
-`bash -c "git clone git@github.com:samjf/silverstripe4-docker-example.git && cd silverstripe4-docker-example && ./.setup.sh"`
+`bash -c "git clone git@github.com:samjf/silverstripe4-docker-example.git && cd $PWD/silverstripe4-docker-example && ./setup.sh"`
 
 ### Useful commands
 
