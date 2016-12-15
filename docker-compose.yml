@@ -1,15 +1,34 @@
+# Specify the docker-compose version to use
 version: '2'
+
+# A list of all the services (containerised) that we have instructions for
 services:
+
+  # Our web service which we have defined in the project Dockerfile
   web:
+    # Tells docker to build the web service from the project root directory
     build: .
+
+    # Creates a volume between the project root '.' and the web directory in the container
+    # This effectively creates a dynamic sync between our projects code and the containers
+    # web directory
     volumes:
       - .:/var/www/html/
+
+    # Map the outside port 8080 to the containers port 80
     ports:
       - "8080:80"
+
+    # Our web service depends on the db service (defined below)
     depends_on:
       - db
+
+  # Our db (database) service definition
   db:
+
+    # it will be created with an existing Docker hub image called 'mysql' (default to latest)
     image: mysql
+
+    # set any inner environment variables (some important ones are defined in the Docker Hub documentation)
     environment: &mysqlenv
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      # MYSQL_DATABASE: silverstripe_database

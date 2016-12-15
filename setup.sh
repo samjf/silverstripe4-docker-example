@@ -19,4 +19,4 @@ for i in {1..5}; do
 done
 
 echo "\n\nRemoving the cheat sheets ..."
-rm Dockerfile docker-compose.yml
+rm Dockerfile
