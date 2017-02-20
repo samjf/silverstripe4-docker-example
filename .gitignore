@@ -8,4 +8,5 @@ _ss_environment.php
 /tools/phing-metadata
 
 # ignore composer vendor folder
-/vendor/
+# actually we want to have our dependencies secured!
+# /vendor/
