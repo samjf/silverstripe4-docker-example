@@ -4,7 +4,7 @@ FROM php:7.0-apache
 
 # A directive to run various linux commands.
 # We stack up various requirements we need for our environment
-RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev \
+RUN apt-get update && apt-get install -y libpng12-dev libjpeg-dev zip unzip \
     && docker-php-ext-install gd opcache mysqli
 
 RUN a2enmod rewrite expires
